@@ -140,6 +140,7 @@ padding-left: 0px;
     align-items: flex-start;
     gap: var(--gap-a2);
     flex-wrap: wrap;
+    border-radius: 10%;
 }
 .imgContainer:hover {
   transform: scale(110%);
@@ -176,8 +177,12 @@ padding-left: 0px;
 
 
 #filtros {
-    padding: var(--padding-a);
+    padding: var(--padding-a2);
 }
+.priceFilter {
+  height: 30px;
+}
+
 .specialType{
 margin-top: 12px;
 color :var(--color-5);
